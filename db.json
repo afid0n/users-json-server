@@ -1,9 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John Doe",
+      "username": "johndoe",
+      "email": "johndoe@example.com",
+      "password": "John1234",
+      "role": "admin",
+      "bio": "Full Stack Developer",
+      "profileImage": "https://example.com/johndoe.jpg",
+      "createdAt": "2025-02-12T08:00:00Z",
+      "lastLogin": "2025-02-12T12:30:00Z"
+    },
+    {
+      "id": 2,
+      "fullName": "Jane Smith",
+      "username": "janesmith",
+      "email": "janesmith@example.com",
+      "password": "Jane1234",
+      "role": "client",
+      "bio": "UI/UX Designer",
+      "profileImage": "https://example.com/janesmith.jpg",
+      "createdAt": "2025-02-10T09:15:00Z",
+      "lastLogin": "2025-02-11T18:45:00Z"
+    },
+    {
+      "id": "acbe",
+      "fullName": "Fidan Abdullayeva",
+      "username": "fidan12",
+      "email": "fidan@gmail.com",
+      "password": "Fidan123",
+      "role": "client",
+      "bio": "",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541",
+      "createdAt": "2025-02-15T02:53:55.955Z",
+      "lastLogin": "2025-02-15T02:53:55.955Z"
+    },
+    {
+      "id": "8856",
+      "fullName": "Alex Turner",
+      "username": "alex2",
+      "email": "alex2@gmail.com",
+      "password": "Alex21",
+      "role": "client",
+      "bio": "",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541",
+      "createdAt": "2025-02-15T03:56:50.996Z",
+      "lastLogin": "2025-02-15T03:56:50.996Z"
+    },
+    {
+      "id": "b233",
+      "fullName": "Fidan Abdullayeva",
+      "username": "millie_1",
+      "email": "millie1@gmail.com",
+      "password": "rrvgdrgr5A",
+      "role": "client",
+      "bio": "",
+      "profileImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541",
+      "createdAt": "2025-02-15T04:03:33.381Z",
+      "lastLogin": "2025-02-15T04:03:33.381Z"
+    }
+  ]
 }
